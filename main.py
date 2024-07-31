@@ -1,5 +1,5 @@
 def main():
-    path = "./github.com/mjshaffer117/bookbot/books/"
+    path = "./books/"
     file = "frankenstein.txt"
     words = get_text(path + file)
     word_count = count_words(words)
